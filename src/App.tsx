@@ -11,13 +11,20 @@ import { Container } from "react-bootstrap";
 import Skills from "./pages/skills/skills.component";
 import Experience from "./pages/experience/experience.component";
 import ProjectsTimeline from "./components/projects-timeline/projects-timeline.component";
-
+import ContactForm from "./pages/contact-form/contact-form.component";
+import FooterPanel from "./components/footer/footer.component";
+import { particlesOptions } from "./particlesOptions";
+import Particles from "react-particles-js";
 const App = () => {
 	return (
 		<div className='App' style={{ position: "relative" }}>
 			<MyNavbar />
 			<MyCarousal />
 			<TitleMessage />
+			<Particles
+				className='particles particles-box'
+				params={particlesOptions}
+			/>
 			<div>
 				<Parallax
 					blur={{ min: -1000, max: 1000 }}
@@ -66,6 +73,18 @@ const App = () => {
 					</Slide>
 				</Container>
 			</div>
+			{/* Contact form  */}
+			<div>
+				<Container className='container-box rounded'>
+					<Fade duration={500}>
+						<hr />
+						<ContactForm />
+					</Fade>
+				</Container>
+			</div>
+			{/* Footerpanel  */}
+			<hr />
+			<FooterPanel />
 		</div>
 	);
 };
