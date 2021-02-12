@@ -36,14 +36,14 @@ const TitleMessage = () => {
 						Hi, I am
 						<br />
 						<span>
-							<strong>Anand Kumar Jha</strong>
+							<strong>Sumit Sakpal</strong>
 						</span>
 					</div>
 					<div className='sub'>
 						<Typewriter
 							onInit={(typewriter) => {}}
 							options={{
-								strings: ["Web Developer", "Coach", "Learner"],
+								strings: ["Web Developer", "Blogger", "Learner"],
 								autoStart: true,
 								loop: true,
 								delay: 50,

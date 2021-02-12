@@ -11,18 +11,21 @@ const ContactForm = () => {
 					<Col className='d-flex justify-content-center flex-wrap'>
 						<div className='m-2'>
 							<a
-								href='mailto:akjha96@gmail.com'
+								href='mailto:sumitsakpal02@gmail.com'
 								target='_blank'
 								rel='noopener noreferrer'
 							>
-								<Button variant='outline-danger' title='akjha96@gmail.com'>
+								<Button
+									variant='outline-danger'
+									title='sumitsakpal02@gmail.com'
+								>
 									<i className='fas fa-envelope-square'></i> Email Me
 								</Button>
 							</a>
 						</div>
 						<div className='m-2'>
 							<a
-								href='https://www.linkedin.com/in/anand-kumar-jha-745798a4/'
+								href='https://www.linkedin.com/in/sumit-sakpal-09532a148/'
 								target='_blank'
 								rel='noopener noreferrer'
 							>
@@ -34,7 +37,7 @@ const ContactForm = () => {
 
 						<div className='m-2'>
 							<a
-								href='https://github.com/akjha96'
+								href='https://github.com/techsmit96'
 								target='_blank'
 								rel='noopener noreferrer'
 							>
@@ -43,7 +46,7 @@ const ContactForm = () => {
 								</Button>
 							</a>
 						</div>
-						<div className='m-2'>
+						{/* <div className='m-2'>
 							<a
 								href='https://www.youtube.com/user/MrAkjha96/'
 								target='_blank'
@@ -57,10 +60,10 @@ const ContactForm = () => {
 									<i className='fab fa-youtube'></i> Youtube
 								</Button>
 							</a>
-						</div>
+						</div> */}
 						<div className='m-2'>
 							<a
-								href='https://twitter.com/akjha96'
+								href='https://twitter.com/techsmit96'
 								target='_blank'
 								rel='noopener noreferrer'
 							>
@@ -71,7 +74,7 @@ const ContactForm = () => {
 						</div>
 						<div className='m-2'>
 							<a
-								href='https://www.facebook.com/akjha132'
+								href='https://www.facebook.com/sumit.sakpal.585'
 								target='_blank'
 								rel='noopener noreferrer'
 							>
