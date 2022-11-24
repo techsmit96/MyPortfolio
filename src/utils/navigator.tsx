@@ -1,20 +1,20 @@
-import React from 'react';
-import './navigator.css';
-import MyCarousal from '../components/my-carousal/mycarousal.component';
-import MyNavbar from '../components/my-navbar/mynavbar.component';
-import TitleMessage from '../components/title-message/title-message.component';
-import About from '../pages/about/about.component';
-import Fade from 'react-reveal/Fade';
-import Slide from 'react-reveal/Slide';
-import { Parallax } from 'react-parallax';
-import { Container } from 'react-bootstrap';
-import Skills from '../pages/skills/skills.component';
-import Experience from '../pages/experience/experience.component';
-import ProjectsTimeline from '../components/projects-timeline/projects-timeline.component';
-import ContactForm from '../pages/contact-form/contact-form.component';
-import FooterPanel from '../components/footer/footer.component';
-import { particlesOptions } from '../particlesOptions';
-import Particles from 'react-particles-js';
+import React from "react";
+import "./navigator.css";
+import MyCarousal from "../components/my-carousal/mycarousal.component";
+import MyNavbar from "../components/my-navbar/mynavbar.component";
+import TitleMessage from "../components/title-message/title-message.component";
+import About from "../pages/about/about.component";
+import Fade from "react-reveal/Fade";
+import Slide from "react-reveal/Slide";
+import { Parallax } from "react-parallax";
+import { Container } from "react-bootstrap";
+import Skills from "../pages/skills/skills.component";
+import Experience from "../pages/experience/experience.component";
+import ProjectsTimeline from "../components/projects-timeline/projects-timeline.component";
+import ContactForm from "../pages/contact-form/contact-form.component";
+import FooterPanel from "../components/footer/footer.component";
+import { particlesOptions } from "../particlesOptions";
+import Particles from "react-particles-js";
 
 const Navigator = () => {
   return (
@@ -29,7 +29,7 @@ const Navigator = () => {
       <div className="bgImg">
         <Parallax
           blur={{ min: -30, max: 30 }}
-          bgImage={require('../assets/img/parallex/background.webp')}
+          bgImage={require("../assets/img/parallex/background.webp")}
           bgImageAlt=""
           strength={200}
         >
@@ -53,7 +53,7 @@ const Navigator = () => {
       <div>
         <Parallax
           blur={{ min: -1000, max: 1000 }}
-          bgImage={require('../assets/img/parallex/background.webp')}
+          bgImage={require("../assets/img/parallex/background.webp")}
           bgImageAlt=""
           strength={-200}
         >
