@@ -1,7 +1,7 @@
-import React from 'react';
-import { Button, Col, Container, Image, Row } from 'react-bootstrap';
-import './about.style.css';
-import Profile from '../../assets/img/profile/profile.webp';
+import React from "react";
+import { Button, Col, Container, Image, Row } from "react-bootstrap";
+import "./about.style.css";
+import Profile from "../../assets/img/profile/profile.webp";
 
 const About = () => {
   return (
@@ -57,7 +57,7 @@ const About = () => {
                     </div>
                     <div>
                       <a
-                        href="https://drive.google.com/file/d/1QkdkFEFMDXZ3gLUzqx86VEg3eoH-orvl/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1zfHKlZoF79NniT3OPc9-MbiaqFLGhQ2G/view?usp=share_link"
                         target="_blank"
                         rel="noopener noreferrer"
                       >

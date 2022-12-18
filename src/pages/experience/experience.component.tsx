@@ -33,16 +33,20 @@ const Experience = () => {
                       Back End Developer
                     </strong>
                     <br />
-                    <strong>Technology:</strong> Node JS, Express JS,MySQL,MSSQL
+                    <strong>Technology:</strong> Node JS, Express JS, MySQL,
+                    MSSQL
                     <br />
                     <strong>Duration:</strong> June 2021 - September 2022
                     <br />
                     <strong> Description </strong>
                     <ul className="text-left">
                       <li>
+                        I have more than <strong>1 year</strong> experience in
+                        <strong> Node JS</strong> technology.
+                      </li>
+                      <li>
                         <strong>Developed &amp; enhanced</strong> multiple
-                        features with customizability option across web
-                        application.
+                        restful APIs.
                       </li>
                       {/* <li>
                         <strong>Developed</strong> Online Eye Optician System to
@@ -53,16 +57,13 @@ const Experience = () => {
                         working as `Production Support`.
                       </li> */}
                       <li>
-                        <strong>Performed</strong> CRUD operations on multiple
-                        databases to load/ remove data according to the business
-                        requirements.
+                        I worked on <strong>10 plus projects</strong>. Some
+                        projects I build from scratch eg.
+                        <strong> liquor garage.</strong>
                       </li>
                       <li>
-                        <strong>Enhanced Service Response</strong> to extract
-                        data from the customer and vendors to the back end and
-                        admin can performed CRUD operations on databases to
-                        load/ remove data according to the business
-                        requirements.
+                        I possess strong knowledge of Data Structure, OOPS, DBMS
+                        and Backend Development.
                       </li>
                       {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
                     </ul>
